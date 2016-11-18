@@ -50,11 +50,15 @@ html {
 
 #afterLinks {
   background-color: #FFFBF1;
-  margin: 20px 3px 10px 13px;
-  padding: 0px; }
+  margin: 20px; }
+
+#animContainer {
+  text-align: right;
+  padding: 10px 10px; }
 
 #svgDiv {
-  text-align: right; }
+  text-align: right;
+  padding: 0; }
 
 #footer {
   background-color: #749090;

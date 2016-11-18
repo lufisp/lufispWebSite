@@ -36,13 +36,24 @@ and open the template in the editor.
             </div>
         </div>
         <div class="row">
-            <div id="afterLinks">
+            <div id="afterLinks" class="row">
                 <div class="col-md-4">
                     <h2>Soon in the lufi's blog...</h2>
-                    <p>How to animate a selection sort using D3.js</p>
-                </div>
-                <div id="svgDiv" class="col-md-8">  
-                    
+                    <p>How to animate a insertion sort using D3.js</p>
+                </div>                
+                <div id="animContainer" class="col-md-8">  
+                    <button id="btnSort" type ="button" class="btn btn-primary ">
+                        <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                        Sort</button>                
+                    <button id="btnSortAgain" type ="button" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+                        Shuffle
+                    </button>
+
+                    <div id="svgDiv" class="col-md-12"> 
+
+
+                    </div>
                 </div>
 
             </div>
