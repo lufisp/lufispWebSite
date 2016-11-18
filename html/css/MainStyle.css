@@ -50,8 +50,11 @@ html {
 
 #afterLinks {
   background-color: #FFFBF1;
-  margin: 0px;
+  margin: 20px 3px 10px 13px;
   padding: 0px; }
+
+#svgDiv {
+  text-align: right; }
 
 #footer {
   background-color: #749090;

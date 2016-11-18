@@ -43,8 +43,15 @@ html{
 
 #afterLinks{    
     background-color: $myWhite;
-    margin: 0px;
+    margin: 20px 3px 10px 13px;
     padding:0px;    
+}
+
+#svgDiv{
+    text-align: right;
+    //float: right;
+    //background-color: #444343;
+    //min-height: 10px;
 }
 
 #footer{    
@@ -69,11 +76,9 @@ $linkHeight: $fontSize*4;
         min-height: $linkHeight/2 !important;    
     @media screen and (min-width:750px){
         min-height: $linkHeight !important;    
-    }
+    }    
     
     
-    //min-height: $linkHeight !important;    
-    //min-width: #{$divSize +"%"};
     
      
 }
