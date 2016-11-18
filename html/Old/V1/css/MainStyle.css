@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 11:28:44 AM
+    Author     : fernando
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:19:24 PM
+    Author     : fernando
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:52:33 PM
+    Author     : fernando
+*/
+html {
+  background-color: #FFFBF1; }
+
+.headerPage {
+  min-height: 50px !important;
+  max-height: 50px;
+  background-color: #749090; }
+
+#mainPhoto {
+  min-height: 400px;
+  background-image: url("../img/mtlTreesV2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #FFFBF1; }
+
+#mainContent {
+  min-height: 200px;
+  background-color: #FFFBF1; }
+
+#footer {
+  min-height: 50px;
+  background-color: #749090; }
+
+.links {
+  float: left;
+  margin-top: -50px;
+  min-height: 100px;
+  margin-right: 25px;
+  max-width: 100px;
+  min-width: 100px;
+  border-radius: 50%; }
+
+#blog {
+  color: #FFFBF1;
+  background-color: #910000; }
+
+#cv {
+  background-color: #CBB370; }
+
+.textLink {
+  font-size: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 24px; }
+
+#mainContentText {
+  clear: both; }
+
+/*# sourceMappingURL=MainStyle.css.map */

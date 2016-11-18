@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;EAIE;AACF;;;EAGE",
+"sources": ["../../scss/utilities/globalVariables.scss"],
+"names": [],
+"file": "globalVariables.css"
+}

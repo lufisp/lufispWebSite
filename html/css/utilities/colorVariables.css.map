@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;EAIE;AACF;;;EAGE",
+"sources": ["../../scss/utilities/colorVariables.scss"],
+"names": [],
+"file": "colorVariables.css"
+}

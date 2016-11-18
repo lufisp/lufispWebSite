@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:11:21 PM
+    Author     : fernando
+*/
+@import "utilities/colorVariables.scss";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import "utilities/globalVariables.scss";
+
+//////////////////////Circles Links//////////////////////////
+$circleSize: 70px;
+$fontSize: 15px;
+
+
+.headerMenulinks{    
+    float: right;
+    margin-top:  $headerHeight - ($circleSize/2);
+    min-height: $circleSize;
+    margin-right: $circleSize/4;
+    max-width: $circleSize;
+    min-width: $circleSize;
+    border-radius: 50%;
+    overflow: visible;
+    
+}
+
+#cv_mainPageLink{
+    background-color: $color1;
+}
+
+#cv_pdfLink{
+    background-color: $pdfLinkBackground;    
+}
+
+#cv_blogLink{
+    background-color: $color2;                
+}
+
+#cvContent{
+    padding: 0px;
+    z-index: -1;
+}
+.cvImage{
+    padding: 0px;    
+    height: auto;
+}
+
+.headerMenulinks{
+    float: right;
+}
+
+.headerMenuLinksText{
+    color: $myWhite;
+    font-size: $fontSize;
+    font-family: 'Open Sans Condensed', sans-serif;   
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: $circleSize/2 - $fontSize;
+}

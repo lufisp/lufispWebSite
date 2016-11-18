@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:11:21 PM
+    Author     : fernando
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:19:24 PM
+    Author     : fernando
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:52:33 PM
+    Author     : fernando
+*/
+.headerMenulinks {
+  float: right;
+  margin-top: 15px;
+  min-height: 70px;
+  margin-right: 17.5px;
+  max-width: 70px;
+  min-width: 70px;
+  border-radius: 50%;
+  overflow: visible; }
+
+#cv_mainPageLink {
+  background-color: #CBB370; }
+
+#cv_pdfLink {
+  background-color: #b7362f; }
+
+#cv_blogLink {
+  background-color: #910000; }
+
+#cvContent {
+  padding: 0px;
+  z-index: -1; }
+
+.cvImage {
+  padding: 0px;
+  height: auto; }
+
+.headerMenulinks {
+  float: right; }
+
+.headerMenuLinksText {
+  color: #FFFBF1;
+  font-size: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 20px; }
+
+/*# sourceMappingURL=cv.css.map */
