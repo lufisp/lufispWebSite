@@ -11,6 +11,7 @@ and open the template in the editor.
 @import "utilities/colorVariables.scss";
 @import "utilities/globalVariables.scss";
 
+$minWidthScreenLimit: 750px;
 
 html{
     background-color: $myWhite;
@@ -25,51 +26,89 @@ html{
 
 #mainPhoto{
     
-    min-height: 400px;
+    min-height: 100px;
+    @media screen and (min-width:750px){
+        min-height: 400px !important;    
+    }
     background-image: url("../img/mtlTreesV2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-color: $myWhite;
 }
 
-#mainContent{
-    min-height: 200px;
-    background-color: $myWhite;
+#linkContainer{        
+    margin: 0px;
+    padding:0px;
 }
 
-#footer{
-    min-height: 50px;
+#afterLinks{    
+    background-color: $myWhite;
+    margin: 0px;
+    padding:0px;    
+}
+
+#footer{    
     background-color: $backGroundColor;   
+    min-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;    
+    color: $myWhite;
 }
 
 //////////////////////Circles Links//////////////////////////
-$circleSize: 100px;
+$divSize: 25;
 $fontSize: 30px;
+$linkHeight: $fontSize*4;
 
 .links{
-    float:left;
-    margin-top: - $circleSize/2;
-    min-height: $circleSize;
-    margin-right: $circleSize/4;
-    max-width: $circleSize;
-    min-width: $circleSize;
-    border-radius: 50%;
+    //float:left;
+    margin: 0px 0px 0px 0px;
+    
+        min-height: $linkHeight/2 !important;    
+    @media screen and (min-width:750px){
+        min-height: $linkHeight !important;    
+    }
+    
+    
+    //min-height: $linkHeight !important;    
+    //min-width: #{$divSize +"%"};
+    
+     
 }
 #blog{    
     color: $myWhite;
-    background-color: $color2;            
+    background-color: $color2; 
 }
 
-#cv{    
-    background-color: $color1;        
+#cv{
+    color: $myWhite;
+    background-color: $color1;            
 }
+
+
+#recLinks{
+    color: $myWhite;
+    background-color: $color3;            
+}
+
+#recBooks{
+    color: $myWhite;
+    background-color: $color4;            
+}
+
+
 
 .textLink{
     font-size: $fontSize;
     font-family: 'Open Sans Condensed', sans-serif;    
-    text-align: center;
-    position: relative;
-    top: $circleSize/2 - $fontSize +4px;
+    text-align: center;    
+    @media screen and (min-width:750px){
+        position: relative;
+        top: $linkHeight/2 - $fontSize +4px;
+    }
+    
 }
 //////////////////////Circles Links//////////////////////////
 

@@ -35,42 +35,64 @@ html {
   background-color: #749090; }
 
 #mainPhoto {
-  min-height: 400px;
+  min-height: 100px;
   background-image: url("../img/mtlTreesV2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #FFFBF1; }
+  @media screen and (min-width: 750px) {
+    #mainPhoto {
+      min-height: 400px !important; } }
 
-#mainContent {
-  min-height: 200px;
-  background-color: #FFFBF1; }
+#linkContainer {
+  margin: 0px;
+  padding: 0px; }
+
+#afterLinks {
+  background-color: #FFFBF1;
+  margin: 0px;
+  padding: 0px; }
 
 #footer {
+  background-color: #749090;
   min-height: 50px;
-  background-color: #749090; }
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #FFFBF1; }
 
 .links {
-  float: left;
-  margin-top: -50px;
-  min-height: 100px;
-  margin-right: 25px;
-  max-width: 100px;
-  min-width: 100px;
-  border-radius: 50%; }
+  margin: 0px 0px 0px 0px;
+  min-height: 60px !important; }
+  @media screen and (min-width: 750px) {
+    .links {
+      min-height: 120px !important; } }
 
 #blog {
   color: #FFFBF1;
   background-color: #910000; }
 
 #cv {
+  color: #FFFBF1;
   background-color: #CBB370; }
+
+#recLinks {
+  color: #FFFBF1;
+  background-color: #374431; }
+
+#recBooks {
+  color: #FFFBF1;
+  background-color: #903723; }
 
 .textLink {
   font-size: 30px;
   font-family: 'Open Sans Condensed', sans-serif;
-  text-align: center;
-  position: relative;
-  top: 24px; }
+  text-align: center; }
+  @media screen and (min-width: 750px) {
+    .textLink {
+      position: relative;
+      top: 34px; } }
 
 #mainContentText {
   clear: both; }
