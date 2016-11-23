@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-Nov-2016, 10:06:06 PM
+    Author     : fernando
+*/
+
+@import "utilities/colorVariables.scss";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import "utilities/globalVariables.scss";
+
+.mainTitle{
+    color: $color3;    
+    font-family: 'Open Sans Condensed', sans-serif;   
+    font-size:  30px;
+    margin: 20px;
+
+
+}
+.subSection{
+    font-family: 'Open Sans Condensed', sans-serif;    
+    margin: 20px;
+    a{
+      font-size:  18px;    
+      color: inherit;      
+    }
+
+}
+.subSectionTitle{
+    color: $color3;        
+    border-bottom: 3px solid $color3;
+    h2{
+        margin-bottom: 0px;
+    }
+    margin-bottom: 20px;
+}

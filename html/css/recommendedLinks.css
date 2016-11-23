@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-Nov-2016, 10:06:06 PM
+    Author     : fernando
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:19:24 PM
+    Author     : fernando
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:52:33 PM
+    Author     : fernando
+*/
+.mainTitle {
+  color: #374431;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  margin: 20px; }
+
+.subSection {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 20px; }
+  .subSection a {
+    font-size: 18px;
+    color: inherit; }
+
+.subSectionTitle {
+  color: #374431;
+  border-bottom: 3px solid #374431;
+  margin-bottom: 20px; }
+  .subSectionTitle h2 {
+    margin-bottom: 0px; }
+
+/*# sourceMappingURL=recommendedLinks.css.map */

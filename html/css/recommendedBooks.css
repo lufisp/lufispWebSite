@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-Nov-2016, 10:06:06 PM
+    Author     : fernando
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:19:24 PM
+    Author     : fernando
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Nov-2016, 5:52:33 PM
+    Author     : fernando
+*/
+.mainTitle {
+  color: #374431;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  margin: 20px; }
+
+.subSection {
+  color: #374431;
+  font-family: 'Open Sans Condensed', sans-serif;
+  clear: both;
+  margin: 20px;
+  border-bottom: 3px solid #374431; }
+  .subSection h2 {
+    margin-bottom: 0px; }
+
+.paragraph {
+  font-size: 14px;
+  min-height: 150px;
+  font-family: arial, sans-serif;
+  color: black; }
+
+.recommendation {
+  float: left;
+  margin: 20px;
+  border: 1px dashed black;
+  padding: 10px;
+  width: 80%; }
+  .recommendation .paragraph {
+    display: none; }
+  .recommendation .colimage {
+    text-align: center;
+    margin: 0px; }
+  @media screen and (min-width: 300px) {
+    .recommendation .paragraph {
+      display: block; }
+    .recommendation .colimage {
+      margin: 20px; } }
+  @media screen and (min-width: 500px) {
+    .recommendation {
+      width: 40%; } }
+  @media screen and (min-width: 900px) {
+    .recommendation {
+      width: 29%; } }
+
+/*# sourceMappingURL=recommendedBooks.css.map */

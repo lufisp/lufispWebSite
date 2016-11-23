@@ -49,7 +49,7 @@ html {
   padding: 0px; }
 
 #afterLinks {
-  background-color: #FFFBF1;
+  background-color: #FFF;
   margin: 20px; }
 
 #animContainer {
@@ -75,6 +75,18 @@ html {
   @media screen and (min-width: 750px) {
     .links {
       min-height: 120px !important; } }
+  .links a {
+    color: inherit;
+    text-decoration: inherit; }
+  .links a:hover {
+    color: inherit;
+    text-decoration: inherit; }
+  .links a:visited {
+    color: inherit;
+    text-decoration: inherit; }
+  .links a:focus {
+    color: inherit;
+    text-decoration: inherit; }
 
 #blog {
   color: #FFFBF1;

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;EAIE;AACF;;;EAGE;ACRF;;;;EAIE;AACF;;;EAGE;ADGM,8EAAsE;AEX9E;;;;EAIE;AACF;;;EAGE;AFMF,UAAU;EACN,KAAK,ECFA,OAAO;EDGZ,WAAW,EAAE,iCAAiC;EAC9C,SAAS,EAAG,IAAI;EAChB,MAAM,EAAE,IAAI;;AAIhB,WAAW;EACP,WAAW,EAAE,iCAAiC;EAC9C,MAAM,EAAE,IAAI;EACZ,aAAC;IACC,SAAS,EAAG,IAAI;IAChB,KAAK,EAAE,OAAO;;AAIpB,gBAAgB;EACZ,KAAK,ECnBA,OAAO;EDoBZ,aAAa,EAAE,iBAAiB;EAIhC,aAAa,EAAE,IAAI;EAHnB,mBAAE;IACE,aAAa,EAAE,GAAG",
+"sources": ["../scss/recommendedLinks.scss","../scss/utilities/colorVariables.scss","../scss/utilities/globalVariables.scss"],
+"names": [],
+"file": "recommendedLinks.css"
+}
